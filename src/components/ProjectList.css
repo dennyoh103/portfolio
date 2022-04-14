@@ -1,28 +1,47 @@
-.pl{
-    padding: 50px 100px;
+.pl {
+    padding: 0px 50px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.pl-texts{
+.pl-texts {
     width: 65%;
 }
 
-.pl-title{
-    font-size: 50px;
-    font-weight: 600;
+.pl-title {
+    font-size: 60px;
 
 }
 
-.pl-desc{
+.pl-desc {
     margin: 20px 0px;
 }
 
-.pl-list{
+.pl-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .pl {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .pl-texts {
+        text-align: center;
+        width: 40vh;
+    }
+
+    .pl-title {
+        font-weight: 500;
+    }
+
 }

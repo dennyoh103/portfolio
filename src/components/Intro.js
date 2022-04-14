@@ -18,7 +18,7 @@ function Intro() {
                         </div>
                     </div>
                     <p className="description">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, et. Eos saepe nihil labore, aperiam consectetur vel numquam animi blanditiis dolorem commodi beatae ipsum dicta. Ab natus rem necessitatibus eveniet.
+                        Ex GIS analyst, customer experience specialist, business operation specialist, and process ops specialist turned into a software engineer. Looking to build something cool and exciting!
                     </p>
                 </div>
             </div>

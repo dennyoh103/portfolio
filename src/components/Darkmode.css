@@ -1,0 +1,29 @@
+.dm{
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;   
+    border: 1px solid #999;
+    background-color: white;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.dm_icon{
+    width: 15px;
+    height: 15px;
+}
+
+.dm_button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #999;
+    position: absolute;
+    cursor: pointer;
+}
